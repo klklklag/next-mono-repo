@@ -1,14 +1,21 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "bootstrap": "npm install && lerna bootstrap",
     "dev": "lerna run dev --parallel"
   },
   "dependencies": {
+    "axios": "^0.24.0",
+    "formdata-node": "^4.3.2",
     "next": "^12.0.7",
+    "next-transpile-modules": "^9.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@types/next": "^9.0.0",

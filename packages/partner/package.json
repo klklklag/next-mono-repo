@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next -p 3001",
+    "dev": "next -p 3002",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next-transpile-modules": "^9.0.0",
-    "shared": "1.0.0"
+    "@thanks/shared": "1.0.0"
   },
   "devDependencies": {
   }

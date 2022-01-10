@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Button from 'shared/src/index';
+import Button from '@thanks/shared/components/buttons/TestButton';
 
 const Home: NextPage = () => {
   return (
@@ -12,4 +12,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Home;
